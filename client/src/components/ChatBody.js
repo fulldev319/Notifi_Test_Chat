@@ -13,7 +13,7 @@ const ChatBody = ({ messages, lastMessageRef, typingStatus }) => {
   return (
     <>
       <header className="chat__mainHeader">
-        <p>Hangout with Colleagues</p>
+        <p>Conversations</p>
         <button className="leaveChat__btn" onClick={handleLeaveChat}>
           LEAVE CHAT
         </button>
@@ -42,7 +42,6 @@ const ChatBody = ({ messages, lastMessageRef, typingStatus }) => {
           <p>{typingStatus}</p>
         </div>
 
-        {/* --- At the bottom of the JSX element ----*/}
         <div ref={lastMessageRef} />
       </div>
     </>

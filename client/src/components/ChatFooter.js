@@ -17,12 +17,8 @@ const ChatFooter = ({ socket }) => {
       });
     }
 
-    checkPageStatus(message, localStorage.getItem("userName"));
     setMessage("");
   };
-
-  //Check PageStatus Function
-  const checkPageStatus = () => {};
 
   return (
     <div className="chat__footer">

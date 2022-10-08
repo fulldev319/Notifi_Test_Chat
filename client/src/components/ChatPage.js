@@ -13,7 +13,6 @@ const ChatPage = ({ socket }) => {
   }, [socket, messages]);
 
   useEffect(() => {
-    // 👇️ scroll to bottom every time messages change
     lastMessageRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
