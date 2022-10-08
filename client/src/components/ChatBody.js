@@ -13,7 +13,7 @@ const ChatBody = ({ messages, lastMessageRef, typingStatus }) => {
   return (
     <>
       <header className="chat__mainHeader">
-        <p>Conversations</p>
+        <p>CONVERSATIONS</p>
         <button className="leaveChat__btn" onClick={handleLeaveChat}>
           LEAVE CHAT
         </button>
